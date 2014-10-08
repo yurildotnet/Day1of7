@@ -20,6 +20,7 @@ namespace Enumerations
             Console.WriteLine("Freezing point of water: {0}", (int)Temperatures.FreezingPoint);
             Console.WriteLine("Boiling point of water: {0}", (int)Temperatures.BoilingPoint);
             
+            //
             //An explicit cast is necessary to convert from enum type to an integral type
             // without casting to (int)output will be the element name:
             // Remember that  Console.WriteLine method by default convrets to string
